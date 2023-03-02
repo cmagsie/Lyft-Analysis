@@ -1,0 +1,48 @@
+
+
+Lyft Dataset Challenge Problems:
+
+1. Recommend a Driver's Lifetime Value
+	- this is based on the projected lifetime of a driver
+
+	- Therefore, there are 2 parts to the problem:
+		- What is the value produced by the driver.
+		- What is the projected lifetime of the driver.
+
+2. Additional Quesitons:
+	- Main Factors is Lifetime Value:
+		- things to include for analysis can be:
+			- # of active years
+			- frequency of ride
+			- length of rides (time/distance)
+			- does "speed" of accept-to-arrive improve performance
+			- do drivers that drive mostly in prime time create more value
+			- do drivers that take bigger/smaller fairs produce more value
+			- do drivers that take bigger/smaller fairs last longer
+
+	- Average Projected lifetime of a driver:
+		- this is basically how long will the driver last once they get onboard
+
+	- Characteristics of Value Creation:
+		- What factors contribute are associated with high-amounts and low-amounts of value creation.
+
+	- Actionable Recommendations for the business:
+		- What characteristics of the driver/rides should Lyft push for in order to find the most value from their drivers.
+
+
+
+There's 2 axis of analysis:
+	1. How long with a driver last
+	2. How much value does the driver create
+
+Characteristics Open for Analysis:
+	1. time active (most recent - onboard activity)
+	2. # of rides (frequency of rides)
+	3. Size of Rides:
+		- distance of a ride
+		- time of a ride
+		- 
+	4. Variance of rides types (only doing small or long rides, or doing many different types)
+	5. Relationship between accept-to-arrive time
+	6. Relative amount of time in prime time
+	7. Size of fairs (does taking many small fairs do better than large fairs)
